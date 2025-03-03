@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import Contact from "../Contact/Contact";
 import { toast } from "react-hot-toast";
-import c from "./ContactList.module.css";
+import s from "./ContactList.module.css";
 
 const ContactList = () => {
   const contacts = useSelector(selectFilteredContacts);
@@ -44,7 +44,7 @@ const ContactList = () => {
   };
 
   return (
-    <div className={c.contactList}>
+    <div className={s.contactList}>
       {contacts.map((data) => (
         <Contact
           key={data.id}

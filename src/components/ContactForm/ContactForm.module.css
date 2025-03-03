@@ -2,7 +2,6 @@ label {
   display: block;
   text-align: start;
   font-weight: 500;
-  color: #212878;
 }
 
 .inputContainer {
@@ -20,7 +19,7 @@ label {
 .inputWrapper .icon {
   position: absolute;
   left: 20px;
-  color: #484c7e;
+  color: black;
   font-size: 1rem;
   transition: color 0.25s ease;
 }
@@ -35,7 +34,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  border-color: #4a90e2;
+  border-color: #19212a;
 }
 
 .error {
@@ -50,13 +49,13 @@ input[type="text"]:focus {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background: linear-gradient(45deg, #6a85b6, #bac8e0);
+  background: linear-gradient(45deg, red, black);
   color: white;
   font-weight: bold;
   transition: transform 0.25s ease, background 0.25s ease;
 }
 
 .btnForm:hover {
-  background: linear-gradient(45deg, #5b76a4, #9cb3d3);
+  background: linear-gradient(45deg, red, #9cb3d3);
   transform: scale(1.05);
 }

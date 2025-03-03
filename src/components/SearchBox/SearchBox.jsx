@@ -22,7 +22,7 @@ const SearchBox = () => {
           value={search}
           onChange={onChange}
           className={s.input}
-          placeholder="Your name..."
+          placeholder="Hant Your name..."
         />
       </label>
     </div>

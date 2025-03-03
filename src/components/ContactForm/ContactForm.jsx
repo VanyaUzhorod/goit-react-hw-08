@@ -12,7 +12,7 @@ const validationSchema = Yup.object().shape({
     .max(50, "Max length 50 characters!")
     .required("Enter name"),
   number: Yup.string()
-    .matches(/^\d{3}-\d{2}-\d{2}$/, "Format xxx-xx-xx")
+    .matches(/^\+380\d{9}$/, "Format +380XXXXXXXXX")
     .required("Enter number"),
 });
 
@@ -37,14 +37,19 @@ const ContactForm = () => {
         <div className={c.inputContainer}>
           <label htmlFor="name">Name</label>
           <div className={c.inputWrapper}>
-            <Field type="text" id="name" name="name" placeholder="Name" />
+            <Field type="text" id="name" name="name" placeholder="Add Name" />
           </div>
           <ErrorMessage className={c.error} name="name" component="span" />
         </div>
         <div className={c.inputContainer}>
           <label htmlFor="number">Number</label>
           <div className={c.inputWrapper}>
-            <Field type="text" id="number" name="number" placeholder="Number" />
+            <Field
+              type="text"
+              id="number"
+              name="number"
+              placeholder="Add Number"
+            />
           </div>
           <ErrorMessage className={c.error} name="number" component="span" />
         </div>

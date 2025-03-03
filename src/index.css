@@ -58,5 +58,5 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 10px;
-  color: #212878;
+  color: red;
 }

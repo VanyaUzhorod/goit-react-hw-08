@@ -24,14 +24,14 @@ li {
 
 .icon {
   font-size: 18px;
-  color: #4a90e2;
+  color: red;
 }
 
 .btnDelete {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(45deg, #6a85b6, #bac8e0);
+  background: linear-gradient(45deg, red, black);
   border: none;
   color: white;
   padding: 8px 12px;
@@ -45,12 +45,12 @@ li {
 }
 
 .btnDelete:hover {
-  background: linear-gradient(45deg, #5b76a4, #9cb3d3);
+  background: linear-gradient(45deg, red, black);
   transform: scale(1.05);
 }
 
 .contactItem:hover {
   transform: scale(1.05);
-  background-color: #212878;
+  background: linear-gradient(45deg, red, black);
   color: white;
 }
